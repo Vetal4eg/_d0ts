@@ -1,0 +1,81 @@
+[user]
+  name = Vetal4eg
+  email = vetal4eg@gmail.com
+
+[alias]
+  co    = checkout
+  ci    = commit 
+  st    = status #--short
+  br    = branch
+  type  = cat-file -t
+  dump  = cat-file -p
+  df    = diff
+  lg    = log -p
+  lol   = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  hist  = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  mylog = log --pretty=format:'%h %s [%an]' --graph
+  ls    = ls-files
+  oops  = reset --hard HEAD~1
+
+  # Show files ignored by git:
+  ign   = ls-files -o -i --exclude-standard
+
+  # Stash commands
+  sl    = stash list
+  sa    = stash apply
+  ss    = stash save
+
+  # Show untracked files
+  stu   = status --untracked-files=no
+
+  # Show history
+  hist  = log --pretty=format:\"%h %ad | %s%d [ad%an]\" --graph --date=short
+
+[color]
+  diff   = true
+  grep   = true
+  status = auto
+  branch = auto
+  ui     = true
+
+  [color "branch"]
+    current    = yellow reverse
+    local      = yellow
+    redemote   = green
+
+  [color "diff"]
+    meta       = normal
+    frag       = magenta bold
+    old        = red bold
+    new        = green bold
+    whitespace = red reverse
+
+  [color "status"]
+    added      = yellow
+    changed    = green
+    untracked  = cyan
+
+[core]
+  excludesfile = ~/.gitignore
+  editor       = sublime -n -w
+  autocrlf     = input
+  safecrlf     = true
+
+[apply]
+  whitespace   = nowarn
+
+[format]
+  pretty       = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+
+[credential]
+  helper       = osxkeychain
+
+[push]
+  default      = simple
+
+[diff]
+  renames      = copy
+
+[log]
+  decorate     = full
+
