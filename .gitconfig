@@ -4,14 +4,12 @@
 
 [alias]
   co    = checkout
-  ci    = commit 
   st    = status #--short
   br    = branch
   type  = cat-file -t
   dump  = cat-file -p
   df    = diff
-  lg    = log -p
-  lol   = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  lg    = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
   hist  = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
   mylog = log --pretty=format:'%h %s [%an]' --graph
   ls    = ls-files
@@ -58,8 +56,8 @@
 [core]
   excludesfile = ~/.gitignore
   editor       = sublime -n -w
-  autocrlf     = input
-  safecrlf     = true
+  pager        = less -R
+  whitespace   = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 
 [apply]
   whitespace   = nowarn
