@@ -65,8 +65,14 @@
 [push]
   default      = simple
 
+[merge]
+  tool         = vimdiff
+  keepBackup   = false
+
 [diff]
-  renames      = copy
+  tool = vimdiff
 
 [log]
   decorate     = full
+
+
