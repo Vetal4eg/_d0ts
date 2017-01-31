@@ -1,5 +1,5 @@
 [user]
-  name = Vetal4eg
+  name  = Vetal4eg
   email = vetal4eg@gmail.com
 
 [alias]
@@ -8,9 +8,6 @@
   br    = branch
   type  = cat-file -t
   dump  = cat-file -p
-  lg    = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
-  hist  = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-  mylog = log --pretty=format:'%h %s [%an]' --graph
   ls    = ls-files
   oops  = reset --hard HEAD~1
 
@@ -70,7 +67,7 @@
   keepBackup   = false
 
 [diff]
-  tool = vimdiff
+  tool         = vimdiff
 
 [log]
   decorate     = full
