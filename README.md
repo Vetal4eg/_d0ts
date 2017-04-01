@@ -1,10 +1,11 @@
 # My awesome d0tfiles
 
-### Requrements
+### Requirements
 
 * ansible
 * vim
 * git
+* brains
 
 ### Install
     git clone <this repo>
