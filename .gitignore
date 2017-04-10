@@ -1,11 +1,19 @@
-._*
-.*.swp
-.*.swo
-*.idea
+# Mac OS X hidden files
+.DS_Store
+
+# Vim swap files
+.*.sw?
+
+# RVM and rbenv
+/.rvmrc
+/.rbenv-version
+
+# Bundler binstubs
+/bin/
+
 *.rbc
 *.sassc
 **.orig
-.DS_Store
 .rspec
 .sass-cache
 .swp
