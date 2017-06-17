@@ -60,11 +60,13 @@
   helper       = osxkeychain
 
 [push]
-  default      = simple
+  default      = upstream
 
 [merge]
   tool         = vimdiff
   keepBackup   = false
+  summary = true
+  verbosity = 1
 
 [diff]
   tool         = vimdiff
@@ -72,4 +74,6 @@
 [log]
   decorate     = full
 
+[advice]
+  statusHints = false
 
