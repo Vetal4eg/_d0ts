@@ -2,6 +2,9 @@
   name  = Vetal4eg
   email = vetal4eg@gmail.com
 
+[github]
+    user = Vetal4eg
+
 [alias]
   co    = checkout
   st    = status #--short
@@ -9,6 +12,7 @@
   type  = cat-file -t
   dump  = cat-file -p
   ls    = ls-files
+  df    = diff --word-diff
   oops  = reset --hard HEAD~1
 
   # Show files ignored by git:
