@@ -5,7 +5,7 @@
 * ansible
 * vim
 * git
-* brains
+
 
 ### Install
     git clone <this repo>

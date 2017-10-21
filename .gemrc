@@ -2,4 +2,13 @@
 --- 
 gem: --no-document --verbose --backtrace
 update_sources: true
-backtrace: true
+backtrace: false
+
+---
+:update_sources: true
+:sources:
+- http://rubygems.org
+:benchmark: false
+:bulk_threshold: 1000
+:backtrace: false
+:verbose: true
