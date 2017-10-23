@@ -17,7 +17,6 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'ctrlpvim/ctrlp.vim'
-" Plugin 'altercation/vim-colors-solarized'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-fugitive'
@@ -38,9 +37,6 @@ Plugin 'wting/rust.vim'
 Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'joonty/vdebug.git'
 
-Plugin 'eagletmt/ghcmod-vim'
-Plugin 'neovimhaskell/haskell-vim'
-
 Plugin 'elzr/vim-json'
 Plugin 'mxw/vim-jsx'
 Plugin 'pangloss/vim-javascript'
@@ -54,12 +50,15 @@ Plugin 'Valloric/MatchTagAlways'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'plasticboy/vim-markdown'
 
-Plugin 'tpope/vim-haml'
 Plugin 'tpope/vim-git'
 
-" Ruby bundle
+" Color schemes
+  Plugin 'cocopon/iceberg.vim'
+
+" Ruby group
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'slim-template/vim-slim'
+Plugin 'tpope/vim-haml'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-rake'
 Plugin 'tpope/vim-bundler'
@@ -67,7 +66,6 @@ Plugin 'tpope/vim-endwise'
 Plugin 'sunaku/vim-ruby-minitest'
 Plugin 'Shougo/vimshell.vim'
 
-Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-leiningen'
 Plugin 'tpope/vim-classpath'
 Plugin 'tpope/vim-fireplace'
