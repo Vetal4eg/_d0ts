@@ -31,11 +31,8 @@ Plugin 'othree/html5.vim'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'ervandew/supertab'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'fatih/vim-go'
+
 Plugin 'jimenezrick/vimerl'
-Plugin 'wting/rust.vim'
-Plugin 'shawncplus/phpcomplete.vim'
-Plugin 'joonty/vdebug.git'
 
 Plugin 'elzr/vim-json'
 Plugin 'mxw/vim-jsx'
