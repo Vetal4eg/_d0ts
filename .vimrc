@@ -102,10 +102,6 @@ set lazyredraw
 set cursorline
 set hidden
 set nofoldenable
-"set modelines=0
-" set clipboard=unnamed
-"set synmaxcol=128
-"set ttyscroll=10
 "set encoding=utf-8
 set nowrap
 set number
@@ -172,16 +168,6 @@ let g:easytags_async = 1
 
 " Automatically removing all trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
-
-" Enable omni completion.
-" autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-" autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-" autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-" autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-" autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-" autocmd FileType ruby setlocal omnifunc=rubycomplete#CompleteTags
-" autocmd BufWritePost *.hs call s:check_and_lint()
-" autocmd BufWritePost *.hs GhcModCheckAndLintAsync
 
 let g:buffergator_viewport_split_policy = "B"
 let g:buffergator_sort_regime = "mru"
