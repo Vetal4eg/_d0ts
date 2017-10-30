@@ -82,7 +82,7 @@ filetype plugin indent on
 let mapleader=","
 
 " Sets how many lines of history VIM has to remember
-set history=500
+set history=800
 
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
@@ -172,10 +172,6 @@ let g:syntastic_erlang_checkers = ['syntaxerl', 'escript']
 let g:syntastic_php_checkers=['phpcs', 'php']
 let g:syntastic_php_phpcs_exec='~/.composer/vendor/bin/phpcs'
 let g:syntastic_php_phpcs_args='--standard=PSR2 -n'
-
-" imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-" smap <C-k>     <Plug>(neosnippet_expand_or_jump)
-" xmap <C-k>     <Plug>(neosnippet_expand_target)
 
 nmap <F8> :TagbarToggle<CR>
 nnoremap <F5> :UndotreeToggle<cr>
