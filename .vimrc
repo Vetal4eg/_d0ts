@@ -63,6 +63,10 @@ Plugin 'tpope/vim-endwise'
 Plugin 'sunaku/vim-ruby-minitest'
 Plugin 'Shougo/vimshell.vim'
 
+" tmux group
+Plugin 'jgdavey/tslime.vim'
+Plugin 'jpalardy/vim-slime'
+
 Plugin 'tpope/vim-leiningen'
 Plugin 'tpope/vim-classpath'
 Plugin 'tpope/vim-fireplace'
