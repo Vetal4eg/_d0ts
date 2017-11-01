@@ -226,11 +226,6 @@ au BufRead,BufNewFile {Vagrantfile,Gemfile,Capfile} set ft=ruby
 
 " autocmd FileType ruby compiler ruby
 
-" au FileType ruby setl sw=2 sts=2 et
-" au FileType javascript setl sw=2 sts=2 et
-" au FileType yaml setl sw=2 sts=2 et
-autocmd Filetype php setlocal ts=4 sw=4
-
 if filereadable(expand("~/.vimrc.after"))
   source ~/.vimrc.after
 endif
