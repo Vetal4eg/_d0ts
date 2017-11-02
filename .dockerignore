@@ -3,3 +3,4 @@ Dockerfile
 bin/fix_macvim_external_display.sh
 bin/macos
 .git
+*.md
