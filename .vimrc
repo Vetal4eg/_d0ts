@@ -8,15 +8,20 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+" Navigation
+Plugin 'rking/ag.vim'
+Plugin 'corntrace/bufexplorer'
+Plugin 'kien/ctrlp.vim'
+Plugin 'dockyard/vim-easydir'
+Plugin 'scrooloose/nerdtree'
+
 Plugin 'Shougo/vimproc.vim'
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
-Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-unimpaired'
-Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-fugitive'
