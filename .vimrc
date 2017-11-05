@@ -43,10 +43,8 @@ Plugin 'moll/vim-node'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 
-Plugin 'Valloric/MatchTagAlways'
-
-Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'stephpy/vim-yaml'
 
 Plugin 'tpope/vim-git'
 
@@ -76,7 +74,7 @@ Plugin 'venantius/vim-eastwood'
 Plugin 'vim-scripts/paredit.vim'
 Plugin 'wlangstroth/vim-racket'
 
-Plugin 'stephpy/vim-yaml'
+
 
 Plugin 'chrisbra/csv.vim'
 Plugin 'ekalinin/Dockerfile.vim'
