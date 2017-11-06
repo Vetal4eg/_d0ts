@@ -8,45 +8,32 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-" Navigation
-Plugin 'rking/ag.vim'
-Plugin 'corntrace/bufexplorer'
-Plugin 'kien/ctrlp.vim'
-Plugin 'dockyard/vim-easydir'
-Plugin 'scrooloose/nerdtree'
-
-Plugin 'Shougo/vimproc.vim'
-Plugin 'tpope/vim-sensible'
+" Main
 Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/syntastic'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-unimpaired'
-Plugin 'nanotech/jellybeans.vim'
-Plugin 'mileszs/ack.vim'
-Plugin 'tpope/vim-fugitive'
+Plugin 'Yggdroot/indentLine'
 Plugin 'bling/vim-airline'
-Plugin 'tpope/vim-dispatch'
-Plugin 'majutsushi/tagbar'
-Plugin 'godlygeek/tabular'
-Plugin 'digitaltoad/vim-jade'
-Plugin 'ervandew/supertab'
-Plugin 'editorconfig/editorconfig-vim'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'tpope/vim-repeat'
 
-Plugin 'jimenezrick/vimerl'
 
-Plugin 'elzr/vim-json'
-Plugin 'mxw/vim-jsx'
-Plugin 'pangloss/vim-javascript'
-Plugin 'moll/vim-node'
+" Navigation
+  Plugin 'rking/ag.vim'
+  Plugin 'corntrace/bufexplorer'
+  Plugin 'kien/ctrlp.vim'
+  Plugin 'dockyard/vim-easydir'
+  Plugin 'scrooloose/nerdtree'
 
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-easytags'
+  Plugin 'scrooloose/syntastic'
 
-Plugin 'plasticboy/vim-markdown'
-Plugin 'stephpy/vim-yaml'
+  Plugin 'elzr/vim-json'
 
-Plugin 'tpope/vim-git'
+" js group
+  Plugin 'mxw/vim-jsx'
+  Plugin 'pangloss/vim-javascript'
+
+" Markup
+  Plugin 'plasticboy/vim-markdown'
+  Plugin 'stephpy/vim-yaml'
 
 " Color schemes
   Plugin 'cocopon/iceberg.vim'
