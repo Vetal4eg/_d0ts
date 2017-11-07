@@ -9,10 +9,10 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Main
-Plugin 'tpope/vim-surround'
-Plugin 'Yggdroot/indentLine'
-Plugin 'bling/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+  Plugin 'tpope/vim-surround'
+  Plugin 'Yggdroot/indentLine'
+  Plugin 'bling/vim-airline'
+  Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-repeat'
 
 
@@ -25,6 +25,7 @@ Plugin 'tpope/vim-repeat'
 
   Plugin 'scrooloose/syntastic'
 
+" Programming
   Plugin 'elzr/vim-json'
 
 " js group
@@ -39,34 +40,27 @@ Plugin 'tpope/vim-repeat'
   Plugin 'cocopon/iceberg.vim'
 
 " Ruby group
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'slim-template/vim-slim'
-Plugin 'tpope/vim-haml'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-rake'
-Plugin 'tpope/vim-bundler'
-Plugin 'tpope/vim-endwise'
-Plugin 'sunaku/vim-ruby-minitest'
-Plugin 'Shougo/vimshell.vim'
+  Plugin 'vim-ruby/vim-ruby'
+  Plugin 'slim-template/vim-slim'
+  Plugin 'tpope/vim-haml'
+  Plugin 'tpope/vim-rails'
+  Plugin 'tpope/vim-rake'
+  Plugin 'tpope/vim-bundler'
+  Plugin 'tpope/vim-endwise'
+  Plugin 'sunaku/vim-ruby-minitest'
+  Plugin 'Shougo/vimshell.vim'
 
 " tmux group
-Plugin 'jgdavey/tslime.vim'
-Plugin 'jpalardy/vim-slime'
+  Plugin 'jgdavey/tslime.vim'
+  Plugin 'jpalardy/vim-slime'
 
-Plugin 'tpope/vim-leiningen'
-Plugin 'tpope/vim-classpath'
-Plugin 'tpope/vim-fireplace'
-Plugin 'venantius/vim-eastwood'
-
-Plugin 'vim-scripts/paredit.vim'
-Plugin 'wlangstroth/vim-racket'
-
-
-
-Plugin 'chrisbra/csv.vim'
-Plugin 'ekalinin/Dockerfile.vim'
+  Plugin 'tpope/vim-leiningen'
+  Plugin 'tpope/vim-classpath'
+  Plugin 'tpope/vim-fireplace'
+  Plugin 'venantius/vim-eastwood'
 
 call vundle#end()
+
 filetype plugin indent on
 
 let mapleader=","
@@ -113,9 +107,9 @@ set softtabstop=2
 set shiftwidth=2
 " set smarttab
 
-" set background=dark
-set t_Co=256
-colorscheme jellybeans
+" Color Scheme
+set guifont=Inconsolata\ LGC\ 14
+colo iceberg
 
 " ================ Persistent Undo ==================
 " Keep undo history across sessions, by storing in file.
@@ -158,10 +152,6 @@ let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_haml_checkers = ['haml_lint']
 let g:syntastic_ruby_checkers = ['rubocop', 'mri']
 let g:syntastic_erlang_checkers = ['syntaxerl', 'escript']
-
-let g:syntastic_php_checkers=['phpcs', 'php']
-let g:syntastic_php_phpcs_exec='~/.composer/vendor/bin/phpcs'
-let g:syntastic_php_phpcs_args='--standard=PSR2 -n'
 
 nmap <F8> :TagbarToggle<CR>
 nnoremap <F5> :UndotreeToggle<cr>
