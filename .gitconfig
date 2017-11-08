@@ -22,7 +22,8 @@
   stu   = status --untracked-files=no
 
   # Show history
-  hist  = log --pretty=format:\"%h %ad | %s%d [ad%an]\" --graph --date=short
+  hist  = log --pretty=format:"%h - %an, %ar : %s" --graph
+
 
 [color]
   diff   = true

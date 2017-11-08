@@ -13,7 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
   Plugin 'Yggdroot/indentLine'
   Plugin 'bling/vim-airline'
   Plugin 'vim-airline/vim-airline-themes'
-Plugin 'tpope/vim-repeat'
+  Plugin 'tpope/vim-repeat'
 
 
 " Navigation
