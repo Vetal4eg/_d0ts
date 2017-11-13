@@ -54,11 +54,6 @@ Plugin 'VundleVim/Vundle.vim'
   Plugin 'jgdavey/tslime.vim'
   Plugin 'jpalardy/vim-slime'
 
-  Plugin 'tpope/vim-leiningen'
-  Plugin 'tpope/vim-classpath'
-  Plugin 'tpope/vim-fireplace'
-  Plugin 'venantius/vim-eastwood'
-
 call vundle#end()
 
 filetype plugin indent on
