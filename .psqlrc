@@ -8,10 +8,18 @@
 -- Show how long each query takes to execute
 \timing
 
+\timing
+\x auto
+
+\pset border 2
+\pset linestyle unicode
+\pset null ∅
+
 -- Use best available output format
 \x auto
 \set VERBOSITY verbose
 \set HISTFILE ~/.psql_history- :DBNAME
+\set HISTSIZE 2000
 \set HISTCONTROL ignoredups
 \set COMP_KEYWORD_CASE upper
 \unset QUIET
